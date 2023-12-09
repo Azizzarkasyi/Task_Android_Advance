@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:checkable="true"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/home_ic"/>
+    <item
+        android:title="List"
+        android:checkable="true"
+        android:iconTintMode="multiply"
+        android:icon="@drawable/ic_viewlist"
+        android:id="@+id/list_ic"/>
+    <item
+        android:title="Setting"
+        android:checkable="true"
+        android:iconTintMode="multiply"
+        android:icon="@drawable/ic_setting"
+        android:id="@+id/setting_ic"/>
+</menu>
